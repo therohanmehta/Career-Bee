@@ -82,7 +82,7 @@ nav li {
 .connectWithUsSectionDiv div:nth-child(1),
 .connectWithUsSectionDiv div:nth-child(2) {
   width: 30%;
-  border-right: 1px solid #5a545470;
+  border-right: 1px solid #D0D0D0;
 }
 .connectWithUsSectionDiv div:nth-child(3) {
   width: 40%;
@@ -103,34 +103,39 @@ nav li {
 .connectWithUsSectionDiv div p {
   color: #616161;
   font-family: Manrope;
-  font-size: 1em;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
   text-transform: capitalize;
+ padding: 1rem 0;
 }
+
 
 .pageFormComponent {
   flex-wrap: wrap;
   /* border: 2px solid red; */
 }
-.pageFormComponent input {
+.pageFormComponent input , .pageFormComponent textarea {
   margin-bottom: 2em;
   border: none;
   width: 48%;
+  font-size: 1.2rem;
+  padding: 1rem 0;
   border-bottom: 1px solid rgba(82, 76, 76, 0.227);
 }
 .pageFormComponent button {
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 10px 24px 0px rgba(205, 202, 198, 0.49);
-  width: 169px;
-  height: 81px;
+padding: 5% 15%;
   flex-shrink: 0;
   border: none;
+  font-weight: bold;
 }
 .pageFormComponent button:hover {
   box-shadow: 5px 10px 24px 0px rgba(205, 202, 198, 0.8);
 }
+
 footer {
   background: #2b2b39;
   /* height: 50vh; */
@@ -145,6 +150,16 @@ footer a {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
+  
+}
+footer a:hover{
+  color: #b3b3b4;
+}
+footer li{
+  margin-bottom: 0.6rem;
+  /* border: 2px solid red !important; */
+
 }
 footer li img {
   width: 30px;
