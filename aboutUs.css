@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav a {
+  text-decoration: none;
+  color: black !important;
+}
+.navbar{
+  background-color: #e8e9eb !important;
+}
+
+nav img {
+  width: 20%;
+}
+.navDiv {
+  width: 75%;
+}
+.navDiv li {
+  width: max-content;
+}
+
+nav ul {
+  padding-top: 20px;
+}
+nav li {
+  width: max-content;
+  color: #161616;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeLink {
+  padding: 1rem 1.5rem;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: #f99c1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingText {
+  height: 30vh;
+  background-color: #e8e9eb;
+  color: #0a1b36;
+}
+.aboutLeftSection {
+  width: 40%;
+
+  /* background-color: lightblue; */
+  height: max-content;
+}
+.aboutLeftSection * {
+  border-radius: 14px;
+}
+.aboutRightSection {
+  width: 60%;
+  height: max-content;
+}
+.img1 {
+  z-index: -1;
+  opacity: 0.4;
+}
+.img2 {
+  margin: 20% 25%;
+}
+.img3 {
+  width: 30%;
+  position: absolute;
+  right: 15%;
+  bottom: 0%;
+  padding: 10px;
+  background-color: white;
+}
+
+.careerBeeText,
+.aboutText {
+  color: #f99c1b;
+  line-height: 100%;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-transform: capitalize;
+}
+.aboutText {
+  color: #33333d;
+}
+.wholeAboutText {
+  color: #616161;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.ourExpertDiv {
+  background-color: #f6f7fa;
+  width: 80%;
+}
+.ourExpertDiv img {
+  width: 100%;
+}
+.ourExpertDiv > div {
+}
+.ourExpertDiv > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.aboutExpert {
+  color: #616161;
+  /* font-family: inter; */
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+}
+.expertName {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 125% */
+  text-transform: capitalize;
+}
+.expertName span {
+  color: #626262;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%;
+  text-transform: capitalize;
+}
+.expertQualification {
+  color: #626262;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  text-transform: capitalize;
+}
+
+@media screen and (350px <= width <= 450px) {
+  nav img {
+    width: 40%;
+  }
+  .navDiv {
+    width: 100%;
+  }
+  .activeLink {
+    padding: 0;
+    flex-shrink: 0;
+    border-radius: 0;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,57 @@
+
+
+@media (min-width: 1440px) { 
+
+.ds1 { font-size: 5rem; line-height: 1.2; } /*80px*/
+.ds2 { font-size: 4.5rem; line-height: 1.2; }  /* 72px */
+.ds3 { font-size: 4rem; line-height: 1.2;}
+.ds4 { font-size: 3.75rem; line-height: 1.2;} /* 60px */
+.ds5 { font-size: 3rem; line-height: 1.2; color:#211D1E ; }  /* 48px */
+.ds6 { font-size: 2.5rem; line-height: 1.2; color:#211D1E ; }
+.ds7 { font-size: 2.25rem; line-height: 1.2; color:#211D1E ; }   /* 36px */
+.ds8 { font-size: 1.875rem; line-height: 1.2; color:#211D1E ;}  /* 30px */ 
+.ds9 {   font-size: 1.5rem; color:#211D1E ; }  /* 24px */
+.ds10 {   font-size: 1.25rem; color:#211D1E ;  } /* 20px */
+.ds11 {   font-size: 1rem; color:#211D1E ; } /* 16px */
+.ds12 {   font-size: 0.875rem; color:#888888; }  /* 14px */
+.ds13 {   font-size: 0.875rem; color:#211D1E; }  /* 14px */
+
+}
+ 
+
+@media (max-width: 1440px) { 
+  .ds1 { font-size: calc(1.625rem + 3.5vw); } 
+  .ds2 { font-size: calc(1.575rem + 2.5vw); }
+  .ds3 { font-size: calc(1.525rem + 1.3vw); }
+  .ds4 { font-size: calc(1.475rem + 1.7vw); }
+  .ds5 { font-size: calc(1.325rem + 1.1vw); color:#211D1E ;}
+  .ds6 { font-size: calc(1.375rem + 0.5vw); color:#211D1E ;}
+  .ds7 { font-size: calc(1.325rem + 0.5vw); color:#211D1E ;}
+  .ds8 { font-size: calc(1.3rem + 0.3vw); color:#211D1E ;}
+  .ds9 { font-size: calc(1.275rem + 0.2vw); color:#211D1E ;}
+  .ds10 {  font-size: calc(1.1rem + 0.1vw); color:#211D1E ;}
+  .ds11 {  font-size: calc(0.775rem + 0.1vw);  color:#211D1E ;} 
+  .ds12 { font-size: 0.875rem;  color:#888888;} 
+  .ds13 { font-size: 0.875rem; color:#211D1E; }  /* 14px */
+  p {   font-size: calc(0.875rem + 0.1vw);  color:#888888;} 
+}
+
+
+
+@media (max-width: 767px) { 
+  .ds1 {     font-size: calc(1.625rem + 3.5vw);} 
+  .ds2 {  font-size: calc(1.575rem + 2.5vw); }
+  .ds3 {   font-size: calc(1.525rem + 1.3vw); }
+  .ds4 {   font-size: calc(1.475rem + 1.0vw); }
+  .ds5 {   font-size: calc(1.325rem + 0.1vw); }
+  .ds6 {   font-size: calc(1.375rem + 0.5vw); }
+  .ds7 {   font-size: calc(1.325rem + 0.5vw); }
+  .ds8 {   font-size: calc(1.3rem + 0.3vw); }
+  .ds9 {   font-size: calc(1.275rem + 0.2vw); }
+  .ds10 {   font-size: calc(1.1rem + 0.1vw);}
+  .ds11 {   font-size: calc(0.875rem + 0.1vw);}
+  .ds12 {   font-size: 0.875rem; } 
+  .ds13 {    font-size: 0.875rem; } 
+  p {    font-size: calc(0.875rem + 0.1vw); } 
+}
+
