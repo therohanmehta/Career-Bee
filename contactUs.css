@@ -110,6 +110,28 @@ nav li {
  padding: 1rem 0;
 }
 
+.orContainer {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  transform: rotate(270deg);
+  height: fit-content;
+  width: auto;
+  border: 2px solid red; */
+}
+
+.line {
+  /* flex: 1;
+  height: 1px;
+  background-color: black; */
+}
+
+.text {
+  /* margin: 0 10px;
+  color: black; */
+}
+
 
 .pageFormComponent {
   flex-wrap: wrap;
@@ -265,6 +287,23 @@ footer p {
   .linksDivFooter ul{
    
     gap: 1rem !important;
+
+  }
+}
+
+
+@media screen and (450px <= width <= 850px) {
+  .connectWithUsSectionDiv{
+    flex-direction: column;
+  }
+  .connectWithUsSectionDiv div{
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  footer li{
+      display: flex;
+      
 
   }
 }
